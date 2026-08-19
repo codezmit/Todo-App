@@ -13,11 +13,6 @@ A simple and intuitive todo application to help you organize and manage your dai
 
 ## Getting Started
 
-### Prerequisites
-
-- Node.js (v14 or higher)
-- npm or yarn package manager
-
 ### Installation
 
 1. Clone the repository:
@@ -79,16 +74,16 @@ Contributions are welcome! To contribute:
 
 ## License
 
-This project is open source and available under the MIT License.
+This project is open source.
 
 ## Support
 
 If you encounter any issues or have questions, please open an [issue](https://github.com/codezmit/Todo-App/issues) on GitHub.
 
 ## Author
-
+  
 Created by [codezmit](https://github.com/codezmit)
-
+  
 ---
 
 **Happy task organizing! 🚀**
