@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo APP</title>
+    <link rel="stylesheet" href="styles/index.css" />
+    <script src="https://kit.fontawesome.com/133a1b722b.js" crossorigin="anonymous"></script>
+  </head>
+  <body class="app">
+    <div class="app-">
+      <div class="app--">
+        <header class="hdng">Todo APP</header>
+      </div>
+      <h1 class="pdty">Boost Your Productivity</h1>
+      <main>
+        <div class="form">
+          <form>
+            <input
+              type="text"
+              id="todo-input"
+              placeholder="Enter Your Task Here!"
+              class="input"
+              required
+            />
+            <input type="date" class="input" id="dte" required />
+            <input type="time" class="input" id="tme" required />
+          </form>
+          <div class="add-task">
+            <button onclick="todoButton()">Add Task</button>
+          </div>
+        </div>
+        <div class="added-list">
+          
+        </div>
+      </main>
+      <footer>
+
+      </footer>
+
+      <script src="scripts/index.js"></script>
+    </div>
+  </body>
+</html>

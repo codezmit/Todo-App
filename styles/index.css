@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app- {
+  z-index: 0;
+  padding: 10px;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-self: center;
+  border: 1px black solid;
+  box-shadow: 0px 10px 60px rgb(231, 33, 231);
+  border-radius: 18px;
+  background-color: rgb(196, 125, 205);
+  
+}
+.app {
+  z-index: 0;
+  background: rgb(0, 0, 0);
+  align-content: center;
+}
+header {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 40px;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 2px 20px 2px 20px;
+  border-radius: 18px;
+  background-color: rgb(210, 96, 238);
+  text-shadow: 6px 7px 8px   rgb(42, 40, 40);
+}
+.app-- {
+  display: flex;
+  padding: 10px 15px;
+}
+.pdty {
+  display: flex;
+  justify-content: center;
+  font-family: cursive;
+  margin: 9px 12px;
+  border: 1px black solid;
+  padding: 8px;
+  border-radius: 18px;
+  background-color: rgb(210, 96, 238);
+}
+.input {
+  border-radius: 18px;
+  padding: 8px;
+  margin: 10px;
+  display: flexbox;
+  border: 1px solid black;
+  font-weight: 700;
+  font-family: cursive;
+  background-color: rgb(198, 198, 218);
+}
+.add-task {
+  display: flex;
+  justify-self: center;
+  
+}
+.add-task button {
+  padding: 10px;
+  margin-top: 8px;
+  border-radius: 18px;
+  font-weight: 700;
+  background-color: rgb(198, 198, 218);
+  border: 1px black solid;
+}
+.added-list{
+  display: grid;
+  grid-template-columns: 150px 110px 100px 50px;
+  column-gap: 10px;
+  row-gap: 20px;
+  margin: 30px 10px 20px 40px;
+  word-wrap: wrap;
+}
+.btn-delete {
+  font-size: 15px;
+  padding: 5px 0px 5px 0px;
+  border-radius: 5px;
+  background-color: rgb(237, 160, 228);
+  color: red;
+  border: 1px black solid;
+}
+.task-style{
+  font-family: cursive;
+  font-size: 15px;
+  border: 1px solid black;
+  background-color:rgb(198, 198, 218) ;
+  border-radius: 18px;
+  padding:3px 0px 0px 7px ;
+}
